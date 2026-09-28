@@ -1,0 +1,7 @@
+# Normalise text to LF on every OS (LightGBM model files and notebooks break with CRLF), keep binaries untouched
+* text=auto eol=lf
+*.parquet binary
+*.png binary
+*.joblib binary
+*.jpg binary
+*.safetensors binary

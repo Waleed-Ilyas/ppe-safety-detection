@@ -1,0 +1,9 @@
+# Runtime dependencies for the deployed app (CPU-only PyTorch; the weights are committed in artifacts/).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.3
+torchvision>=0.18
+numpy>=1.26
+pandas>=2.2
+pillow>=10
+plotly>=5.24
+streamlit>=1.40
