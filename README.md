@@ -6,7 +6,7 @@ from COCO weights entirely on **CPU**, at two input resolutions, compared honest
 models never saw. The interesting part of this project turned out to be upstream of any model: the official
 dataset splits were unusable as shipped, and fixing that came first.
 
-**Live demo:** _added after deployment_ · **Stack:** PyTorch/torchvision (Faster R-CNN, MobileNetV3), pycocotools, MLflow, Streamlit + Plotly
+**Live demo:** https://ppe-safety-detection-2s5rwah5e9zprhxazlwkty.streamlit.app/ · **Stack:** PyTorch/torchvision (Faster R-CNN, MobileNetV3), pycocotools, MLflow, Streamlit + Plotly
 
 ![Live detection](reports/figures/app_home.png)
 
